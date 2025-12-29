@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+
+    height: 100%;
+    background-color: #EFE7DA;
+
+}
+
+h1{
+
+    font-family: "Archivo Black", sans-serif;
+
+}
+
+h2{
+
+    font-size: 24px;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+
+}
+
+h3{
+
+    font-size: 18px;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+
+}
+
+
+p{
+
+    text-align: center;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+header{
+
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    position: fixed;
+    background-color: #790115;
+    border-bottom: 2px solid white;
+    color: white;
+
+}
+
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hero{
+
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    button{
+
+        padding: 0px 15px;
+        margin: 3px 0px;
+        height: 5vh;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 5px;
+
+        a{
+
+            color: black;
+
+        }
+
+    }
+
+}
+
+.botoes{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.imoveis{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 30px;
+
+}
+
+.imovel{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+
+}
+
+.imovel-card{
+
+    background-color: #ffffff;
+    width: 80%;
+    height: 40vh;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    img{
+
+        width: 100%;
+        height: 70%;
+        border-radius: 5px;
+
+    }
+
+    h2{
+
+        font-size: 18px;
+
+    }
+
+    p{
+
+        font-size: 14px;
+
+    }
+
+}
+
+.desc{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.servicos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+    margin-bottom: 100px;
+
+}
+
+.serv-card{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+    img{
+
+        width: 24px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: #d7c5c8;
+
+    }
+
+    h3{
+
+        text-align: start;
+
+    }
+
+    p{
+
+        font-size: 14px;
+        text-align: start;
+
+    }
+
+}
+
+.contato{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 70%;
+    margin-bottom: 100px;
+
+}
+
+.form{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+
+    input{
+
+        height: 3vh;
+        margin-bottom: 10px;
+
+    }
+
+    button{
+
+        background-color: #790115;
+        height: 5vh;
+        border-radius: 10px;
+        color: white;
+        border: none;
+    }
+
+}
+
+footer{
+
+    background-color: #790115;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+
+        font-size: 10px;
+
+    }
+}
