@@ -177,6 +177,13 @@ main{
     margin-bottom: 100px;
 
 }
+.servic-display{
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
 
 .serv-card{
 
@@ -265,4 +272,96 @@ footer{
         font-size: 10px;
 
     }
+}
+
+@media (min-width : 1080px){
+
+    header{
+
+        height: 100px;
+
+        h1{
+
+            font-size: 28px;
+
+        }
+
+    }
+
+    p{
+
+        font-size: 24px;
+
+    }
+
+    h2{
+
+        font-size: 32px;
+
+    }
+
+    .hero{
+
+        h2{
+
+            font-size: 40px;
+
+        }
+
+    }
+
+    .botoes{
+
+        flex-direction: row;
+        gap: 30px;
+
+    }
+
+    .imovel{
+
+        flex-direction: row;
+
+    }
+
+    .imovel-card{
+
+        padding: 10px 10px 30px 10px;
+
+    }
+
+    .servic-display{
+
+        flex-direction: row;
+
+    }
+
+    .serv-card{
+
+        p{
+
+            font-size: 18px;
+
+        }
+
+    }
+
+    .contato{
+
+        width: 60%;
+
+        input{
+
+            height: 40px;
+
+        }
+
+        button{
+
+            width: 200px;
+            height: 30px;
+
+        }
+
+    }
+
 }
